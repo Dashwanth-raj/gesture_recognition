@@ -27,9 +27,9 @@ while cap.isOpened():
                 landmark_list.append([cx,cy])
             if len(landmark_list)!=0:
                 if landmark_list[4][1]<landmark_list[3][1] and landmark_list[8][1]<landmark_list[6][1]:
-                    gesture="stop"
+                    gesture="open palm"
                 elif landmark_list[4][1]>landmark_list[3][1] and landmark_list[8][1]<landmark_list[6][1]:
-                    gesture="look up"
+                    gesture="pointing"
                 else:
                     gesture="None"
                 if gesture:
