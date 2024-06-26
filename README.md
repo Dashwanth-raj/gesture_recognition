@@ -1,4 +1,29 @@
 # gesture_recognition
+Create a new folder and import gestures.py to the new folder
+
+Open a new folder and Create the Virtual Environment:
+To create a virtual environment, use the following command:
+
+python -m venv venv
+
+python -m venv venv tells Python to create a virtual environment
+named venv in your project directory. You can name your virtual
+environment anything you like, but venv is a common convention.
+
+Activate the Virtual Environment:
+After creating the virtual environment, you need to activate it. The command to
+activate the virtual environment depends on your operating system.
+On Windows:
+
+.\venv\Scripts\activate
+
+When the virtual environment is activated, you should see the environment
+name (e.g., (venv) ) at the beginning of your command prompt.
+Step 5: Install Required Packages
+
+Once the virtual environment is activated, you can install the required packages
+using pip . For this project, we will need OpenCV, MediaPipe, TensorFlow, and
+NumPy.
 1. Run the gestures.py script to test the gesture recognition and text overlay.
 2. Verify that the recognized gestures display the corresponding text.
 
